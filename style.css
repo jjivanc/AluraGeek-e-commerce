@@ -1,0 +1,72 @@
+body {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #2A7AE4;
+    font-weight: bold;
+}
+section .interno {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section .banner {
+    background-image: url(assets/banner-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 352px;
+    color: #fff;
+}
+.hero {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+/* Protudos */
+.category-title h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #464646;
+}
+.category {
+    margin: 16px auto;
+}
+section.produto {
+    width: 85%;
+    margin: 0 auto;
+}
+
+div .category-itens {
+    display: flex;
+    gap: 8px;
+}
+.box-item {
+    width: 175px;
+}
+.box-item p {
+    font-weight: bold;
+}
+/* Rodapé */
+section.rodape .solucao{
+    background-color: #EAF2FD;
+    padding: 50px 0;
+}
+.rodape-rodape {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+footer {
+    text-align: center;
+    font-weight: bold;
+}
