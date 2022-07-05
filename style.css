@@ -29,12 +29,15 @@ section .interno {
     margin-left: 8px;
     background-color: #F5F5F5;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     font-size: 14px;
 }
 .icon {
     padding-right: 25px;
-    background: url("assets/Search.png") no-repeat right;
+    background-image: url("assets/Search.png");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 3%) center;
+    margin-right: 10px;
     background-size: 20px;
 }
 .button-login {
@@ -77,14 +80,15 @@ section .banner {
 .category-title h2 {
     font-size: 30px;
     font-weight: bold;
+    margin-bottom: 15px;
     color: #464646;
 }
-.category {
+.category ,.category-item {
     margin: 16px auto;
 }
 section.produto {
     width: 85%;
-    margin: 0 auto;
+    margin: 40px auto;
 }
 
 div .category-itens {
@@ -93,9 +97,29 @@ div .category-itens {
 }
 .box-item {
     width: 175px;
+    margin-bottom: 40px;
 }
-.box-item p {
+.box-item h3,.box-item p,.box-item a {
+    margin-top: 5px;
+}
+.box-item .produto-price {
     font-weight: bold;
+}
+/* Todos os produtos */
+.All-category h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #464646;
+}
+.modify {
+    position: absolute;
+    padding-left: 120px;
+}
+.produto-id {
+    font-size: 14px;
+    font-weight: 500;
+    color: #464646;
 }
 /* Rodapé */
 section.rodape .solucao{
