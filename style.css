@@ -59,7 +59,7 @@ section .banner {
     margin: 0 auto;
     padding-top: 150px;
 }
-.hero button {
+.hero .button-login {
     width: 130px;
     height: 50px;
     margin-top: 15px;
@@ -182,9 +182,14 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
-.formlogin-box {
+.cadastro-item{
+    height: 585px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formlogin-box, .formcadastro-box {
     width: 75%;
     margin: 0 auto;
     text-align: center;
@@ -195,16 +200,26 @@ footer {
     height: 63px;
     margin: 10px 0;
 }
-h2.formlogin-box-item{
+.formcadastro-box-item{
+    width: 420px;
+    height: 55px;
+    margin: 10px 0;
+}
+h2.formlogin-box-item, h2.formcadastro-box-item{
     width: auto;
     height: auto;
 }
-input.formlogin-box-item{
+input.formlogin-box-item, input.formcadastro-box-item{
     border: none ;
     border-bottom: 1px #C8C8C8 solid;
     border-radius: 5px;
+    font-size: 18px;
 }
-button.formlogin-box-item {
+
+input.formcadastro-box-item[type=text]{
+    padding-left: 15px;
+}
+button.formlogin-box-item, button.formcadastro-box-item {
     background-color: #2A7AE4;
     color: #fff;
     border: none;
