@@ -277,5 +277,10 @@ button.formlogin-box-item, button.formcadastro-box-item {
     .formlogin-box-item , .formcadastro-box-item{
         width: 300px;
     }
-    
+    .modify {
+        padding-left: 90px;
+    }
+    .modify a img {
+        width: 25px;
+    }
 }
