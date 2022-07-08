@@ -258,6 +258,24 @@ button.formlogin-box-item, button.formcadastro-box-item {
 }
     
 /*Mobile*/
-@media (min-width: 425px) {
-
+@media (max-width: 425px) {
+    .search {
+        display: none;
+    }
+    .hero h3 {
+        font-size: 22px;
+    }
+    .box-item {
+        width: 149px;
+    }
+    .box-item img {
+        width: 150px;
+    }
+    .formcontato__input, .formcontato__textarea {
+        width: 300px;
+    }
+    .formlogin-box-item , .formcadastro-box-item{
+        width: 300px;
+    }
+    
 }
