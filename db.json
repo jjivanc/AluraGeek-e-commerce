@@ -1,0 +1,44 @@
+{
+    "produtos": [
+      {
+        "nome": "produto",
+        "valor": "60,00",
+        "id": 1
+      },
+      {
+        "nome": "produto",
+        "valor": "60,00",
+        "id": 2
+      },
+      {
+        "nome": "produto",
+        "valor": "60,00",
+        "id": 3
+      },
+      {
+        "nome": "produto",
+        "valor": "60,00",
+        "id": 4
+      },
+      {
+        "nome": "produto",
+        "valor": "60,00",
+        "id": 5
+      },
+      {
+        "nome": "produto",
+        "valor": "60,00",
+        "id": 6
+      },
+      {
+        "nome": "produto",
+        "valor": "60,00",
+        "id": 7
+      },
+      {
+        "nome": "produto",
+        "valor": "60,00",
+        "id": 8
+      }
+    ]
+  }
