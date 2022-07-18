@@ -1,5 +1,5 @@
 const ListaProdutos = async () =>  {
-    const resposta = await fetch(`http://localhost:3000/produtos`)
+    const resposta = await fetch(`https://page-alurageek.herokuapp.com/produtos`)
     if (resposta.ok) {
         return resposta.json()
     }
