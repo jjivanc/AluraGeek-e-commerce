@@ -1,6 +1,6 @@
 import { ClientService } from '../service/cliente-service.js'
 
-const criarProduto = (nome,valor,id) => {
+const criarProduto = (nome,valor,img,id) => {
     const criarDiv = document.createElement('div');
     const conteudo = `
     
@@ -8,7 +8,7 @@ const criarProduto = (nome,valor,id) => {
             <a href="#"><img src="assets/delete.png" alt=""></a>
             <a href="#"><img src="assets/edit.png" alt=""></a>
         </div>
-        <img src="assets/star-wars.png" alt="">
+        <img src="${img}" alt="">
         <h3>${nome}</h3>
         <p class="produto-price">R$ ${valor}</p>
         <p class="produto-id">#${id}</p>
@@ -25,7 +25,7 @@ const render = async () =>  {
     try {
         const listaProdutos = await ClientService.ListaProdutos();
         listaProdutos.forEach(elemento => {
-            tabela.appendChild(criarProduto(elemento.nome,elemento.valor,elemento.id))
+            tabela.appendChild(criarProduto(elemento.nome,elemento.valor,elemento.img,elemento.id))
     })
     }
     catch(erro){
